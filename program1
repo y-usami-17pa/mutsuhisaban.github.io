@@ -126,7 +126,7 @@ def main():
     ft.end_fill()
     ft.begin_fill()
     ft.color("red")
-    ft.fractalgon(3, 200, 4, -1)
+    ft.fractalgon(3, 200, 3, -7)
     ft.end_fill()
     tb=clock()
     res +=  "Koch: %.2fsec." % (tb-ta)
